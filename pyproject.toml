@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ranwen-bot"
+version = "0.1.0"
+description = ""
+authors = ["Yi-Jyun Pan <pan93412@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiogram = "^2.11.2"
+uvloop = "^0.14.0"
+ujson = "^4.0.2"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+autopep8 = "^1.5.5"
+mypy = "^0.800"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
